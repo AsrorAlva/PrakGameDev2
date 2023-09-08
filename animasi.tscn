@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bm6o8051nkqj1"]
+
+[ext_resource type="PackedScene" uid="uid://dhc8ei7dd1f51" path="res://jalan.tscn" id="1_uq5fs"]
+[ext_resource type="PackedScene" uid="uid://c0bj3r0ndrwbq" path="res://main_menu.tscn" id="1_wgg1a"]
+
+[node name="Animasi" type="Node2D"]
+
+[node name="Jalan" parent="." instance=ExtResource("1_uq5fs")]
+
+[node name="Main Menu" parent="." instance=ExtResource("1_wgg1a")]
+position = Vector2(-465, -36)
